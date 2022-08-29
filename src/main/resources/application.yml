@@ -21,6 +21,6 @@ spring:
 mybatis:
   configuration:
     map-underscore-to-camel-case: true
-    logImpl: org.apache.ibatis.logging.stdout.StdOutImpl
+#    logImpl: org.apache.ibatis.logging.stdout.StdOutImpl
   mapper-locations: mybatis/*Mapper.xml
   typeAliasesPackage: com.test.domain
